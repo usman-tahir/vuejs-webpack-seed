@@ -2,14 +2,14 @@
 module.exports = {
     entry: './src/main.js',
     output: {
-        path: './dist',
+        path: __dirname + './dist',
         filename: 'build.js'
     },
     module: {
         loaders: [
             {
                 test: /\.js$/,
-                loader: 'babel',
+                loader: 'babel-loader',
                 exclude: /node_modules/
             }
         ]
