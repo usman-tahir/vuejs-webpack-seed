@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/usman-tahir/vuejs-webpack-seed/issues"
   },
-  "homepage": "https://github.com/usman-tahir/vuejs-webpack-seed#readme"
+  "homepage": "https://github.com/usman-tahir/vuejs-webpack-seed#readme",
+  "dependencies": {
+    "vue": "^2.4.2"
+  }
 }
